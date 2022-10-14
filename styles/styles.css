@@ -116,7 +116,7 @@ body.homepage, body.experience-page {
     width: 100%;
 }
 
-.homepage > main > .card {
+.homepage > main > .card, .experience-page > main > .card {
     background-color: white;
     background-size: cover;
     margin-top: 2rem;
@@ -128,6 +128,8 @@ body.homepage, body.experience-page {
     justify-content: center;
     position: relative;
 }
+
+/* ------ home.html ------ */
 
 .homepage > main > .card:first-of-type {
     background-image: url('../assets/flowery-field.jpg');
@@ -160,6 +162,20 @@ body.homepage, body.experience-page {
     font-weight: bold;
     line-height: 1.3;
     margin-bottom: 10px;
+}
+
+/* ------ experience.html ------ */
+
+.experience-page > main > .card {
+    max-width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 510px) {
+    .experience-page > main > .card:first-of-type {
+        min-height: auto;
+    }
 }
 
 @media screen and (min-width: 576px) {
