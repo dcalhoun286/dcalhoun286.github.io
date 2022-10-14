@@ -111,6 +111,21 @@ body.homepage {
     color: gold;
 }
 
+.homepage > main {
+    width: 100%;
+}
+
+.homepage > main > .card {
+    background-color: white;
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 200px;
+}
+
+.homepage > main > .card:last-of-type {
+    margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 576px) {
 
 }
