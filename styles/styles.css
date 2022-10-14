@@ -257,8 +257,18 @@ body.homepage, body.experience-page, body.portfolio-page {
 }
 
 @media screen and (min-width: 992px) {
+
+    body.welcome {
+        width: 100%;
+    }
+
     .homepage > main, .portfolio-page main {
         display: flex;
+    }
+
+    .homepage > main {
+        height: 100%;
+        align-items: center;
     }
 
     .homepage section.card {
@@ -267,6 +277,9 @@ body.homepage, body.experience-page, body.portfolio-page {
         align-items: center; 
     }
 
+    .homepage section.card:last-of-type {
+        margin-bottom: 0;
+    }
     .homepage section.card > .overlay {
         width: 85%;
         height: 85%;
@@ -276,5 +289,9 @@ body.homepage, body.experience-page, body.portfolio-page {
 
     .portfolio-page main {
         flex-direction: column;
+    }
+
+    footer {
+        margin-bottom: 0;
     }
 }
