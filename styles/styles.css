@@ -26,8 +26,6 @@ h1 {
 
 main.card {
     background-color: rgb(248, 246, 239);
-    width: 90%;
-    margin: auto;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -38,6 +36,7 @@ main.card > img {
     width: 45%;
     min-width: 200px;
     border-radius: 5px;
+    box-shadow: 2px 2px 5px #333;
 }
 
 @media screen and (min-width: 576px) {
