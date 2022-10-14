@@ -202,6 +202,12 @@ body.homepage, body.experience-page, body.portfolio-page {
     position: relative;
 }
 
+/* ------ portfolio.html ------ */
+
+.portfolio-page > main > section.card:last-of-type {
+    margin-bottom: 2rem;
+}
+
 @media screen and (max-width: 510px) {
     .experience-page > main > .card:first-of-type {
         min-height: auto;
@@ -237,5 +243,16 @@ body.homepage, body.experience-page, body.portfolio-page {
 }
 
 @media screen and (min-width: 992px) {
+    .homepage > main, .portfolio-page main {
+        display: flex;
+    }
 
+    .homepage section.card {
+        width: 45%;
+        height: 400px; 
+    }
+
+    .portfolio-page main {
+        flex-direction: column;
+    }
 }
