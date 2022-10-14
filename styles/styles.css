@@ -33,6 +33,17 @@ body.welcome {
     align-items: center;
 }
 
+.welcome h1 {
+    color:rgb(248, 246, 239);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .welcome main.card {
     background-color: rgb(248, 246, 239);
     padding: 1.5rem;
