@@ -121,6 +121,11 @@ body.homepage {
     margin-top: 2rem;
     width: 100%;
     min-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
 .homepage > main > .card:first-of-type {
@@ -132,6 +137,14 @@ body.homepage {
     margin-bottom: 2rem;
 }
 
+.homepage .card > article {
+    width: 100%;
+    height: 66%;
+    /* bottom: 17%; */
+    background-color: rgba(255,255,255,0.6);
+    position: absolute;
+    z-index: 10;
+}
 @media screen and (min-width: 576px) {
 
 }
