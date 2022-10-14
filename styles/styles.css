@@ -2,6 +2,10 @@
 
 /* ------ index.html ------ */
 
+body * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 h1 {
     text-align: center;
 }
@@ -15,5 +19,5 @@ h1 {
 }
 
 @media screen and (min-width: 992px) {
-    
+
 }
