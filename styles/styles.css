@@ -252,7 +252,15 @@ body.homepage, body.experience-page, body.portfolio-page {
 
     .homepage section.card {
         width: 45%;
-        height: 400px; 
+        height: 400px;
+        align-items: center; 
+    }
+
+    .homepage section.card > .overlay {
+        width: 85%;
+        height: 85%;
+        margin: auto;
+        padding: 8px;
     }
 
     .portfolio-page main {
