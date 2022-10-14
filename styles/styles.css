@@ -117,12 +117,18 @@ body.homepage {
 
 .homepage > main > .card {
     background-color: white;
+    background-size: cover;
     margin-top: 2rem;
     width: 100%;
-    min-height: 200px;
+    min-height: 400px;
+}
+
+.homepage > main > .card:first-of-type {
+    background-image: url('../assets/flowery-field.jpg');
 }
 
 .homepage > main > .card:last-of-type {
+    background-image: url('../assets/gas-works-park.jpg');
     margin-bottom: 2rem;
 }
 
